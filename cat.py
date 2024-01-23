@@ -18,12 +18,21 @@
 # for i in range(3):
 #     print("Grace")
 # print("Meow \n" *3, end="")
-while True:
-    n=int(input("Whats the value on n? "))
-    if n>0:
-        break
-for _ in range(n):
-    print("Mine")
+# while True:
+#     n=int(input("Whats the value on n? "))
+#     if n>0:
+#         break
+# for _ in range(n):
+#     print("Mine")
+def main():
+    meow(3)
+
+def meow(n):
+    for _ in range(n):
+        print('Gracie')
+
+main()
+
 
 
 
